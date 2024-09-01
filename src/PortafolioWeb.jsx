@@ -1,5 +1,14 @@
+import { HeadingProvider } from "./context/HeadingProvider"
+import { Navbar } from "./components"
+
 export const PortafolioWeb = () => {
   return (
-    <div>PortafolioWeb</div>
+    <>
+      <HeadingProvider>
+        <Navbar />
+        <main>
+        </main>
+      </HeadingProvider>
+    </>
   )
 }
