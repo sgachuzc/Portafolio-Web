@@ -34,6 +34,9 @@ nav{
 .nav-link{
   color: var(--color-cold);
   text-decoration-line: none;
+  background: transparent;
+  border: navajowhite;
+
   -moz-text-decoration-line: none;
 }
 .nav-link i{

@@ -1,5 +1,10 @@
 import { useContext } from 'react'
 import { HeadingContext } from '../context/HeadingContext'
+import { CopyToClipboard } from 'react-copy-to-clipboard'
+import { 
+  Toaster, 
+  toast 
+} from 'react-hot-toast'
 import '../styles/components/Navbar.css'
 
 const TextBrand = () => {
@@ -32,13 +37,26 @@ export const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a href="" className="nav-link">
-                <i className="fa-solid fa-envelope" />
-              </a>
+              <CopyToClipboard text="sergioegch@gmail.com">
+                <button className='nav-link' onClick={ 
+                  () => toast('¡Correo copiado!',
+                    {
+                      icon: '👍',
+                      style: {
+                        borderRadius: '10px',
+                        background: 'var(--color-blue)',
+                        color: 'var(--color-cold)',
+                      },
+                    }
+                  )}>
+                  <i className="fa-solid fa-envelope" />
+                </button>
+              </CopyToClipboard>
             </li>
           </ul>
         </div>
       </nav>
+      <Toaster position="bottom-right"/>
     </header>
   )
 }
