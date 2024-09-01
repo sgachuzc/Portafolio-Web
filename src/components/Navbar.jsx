@@ -17,7 +17,7 @@ export const Navbar = () => {
           <a className='nav-brand' href='/'>
             <img src="/images/icon.png" alt="Logo" width="50"/>
           </a>
-          { title && <TextBrand/> }
+          { !title && <TextBrand/> }
         </div>
         <div className="nav-items-right">
           <ul className="list-items">
@@ -33,7 +33,7 @@ export const Navbar = () => {
             </li>
             <li className="nav-item">
               <a href="" className="nav-link">
-                <i className="fa-solid fa-share-nodes" />
+                <i className="fa-solid fa-envelope" />
               </a>
             </li>
           </ul>
