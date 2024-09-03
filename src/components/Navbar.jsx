@@ -15,6 +15,14 @@ const TextBrand = () => {
 
 export const Navbar = () => {
   const { title } = useContext( HeadingContext )
+  const toastConfig = {
+    icon: '📑',
+    style: {
+      borderRadius: '10px',
+      background: 'var(--color-blue)',
+      color: 'var(--color-cold)',
+    },
+  }
   return (
     <header>
       <nav>
@@ -38,17 +46,7 @@ export const Navbar = () => {
             </li>
             <li className="nav-item">
               <CopyToClipboard text="sergioegch@gmail.com">
-                <button className='nav-link' onClick={ 
-                  () => toast('¡Correo copiado!',
-                    {
-                      icon: '👍',
-                      style: {
-                        borderRadius: '10px',
-                        background: 'var(--color-blue)',
-                        color: 'var(--color-cold)',
-                      },
-                    }
-                  )}>
+                <button className='nav-link' onClick={ () => toast('¡Correo copiado!', toastConfig) }>
                   <i className="fa-solid fa-envelope" />
                 </button>
               </CopyToClipboard>
