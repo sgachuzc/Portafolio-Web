@@ -1,0 +1,9 @@
+.section-content-badges{
+  margin: 1rem auto;
+}
+.section-content-badges div{
+  display: flex;
+}
+.text-with-badge{
+  display: ruby;
+}

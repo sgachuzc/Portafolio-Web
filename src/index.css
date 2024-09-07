@@ -20,6 +20,9 @@
   width: 60%;
   margin: 5rem auto 1rem;
 }
+.section-content p{
+  text-align: justify;
+}
 @keyframes hvr-buzz-out {
   10% {
     -webkit-transform: translateX(3px) rotate(2deg);
