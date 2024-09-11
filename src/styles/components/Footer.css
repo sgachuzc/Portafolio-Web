@@ -1,0 +1,16 @@
+footer{
+  display: grid;
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--color-navy);
+  color: var(--color-cold);
+}
+.footer-copy{
+  color: var(--white-color);
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+}
+.footer-copy p{
+  margin: 0;
+}

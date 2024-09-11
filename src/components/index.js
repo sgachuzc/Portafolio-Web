@@ -1,4 +1,5 @@
 export * from './Badge'
+export * from './Footer'
 export * from './Navbar'
 export * from './ProjectCard'
 export * from './TimeLine'

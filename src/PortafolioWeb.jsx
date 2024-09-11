@@ -1,5 +1,8 @@
 import { HeadingProvider } from "./context/HeadingProvider"
-import { Navbar } from "./components"
+import { 
+  Footer, 
+  Navbar 
+} from "./components"
 import { 
   AboutSection,
   HeroSection, 
@@ -20,6 +23,7 @@ export const PortafolioWeb = () => {
           <TechSection/>
           <ProjectsSection/>
         </main>
+        <Footer/>
       </HeadingProvider>
     </>
   )
