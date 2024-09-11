@@ -42,19 +42,21 @@ export const HeroSection = () => {
   });
 
   return (
-    <section className='main-section'>
-      <span className='subtitle'>
-        Hola🫡, soy
-      </span>
-      <h1 className='title'>
-        Sergio<br />Gachúz
-      </h1>
-      <ReactTyped strings={ textToType } typeSpeed={ 40 } backSpeed={ 30 } /> 
-      <div className="container-download-cv" ref={elementRef}>
-        <a className='btn-download' target='_blank' href='' download tabIndex="0">
-          Descargar CV 
-          <i className="fa-regular fa-circle-down"></i>
-        </a>
+    <section className='container main-section'>
+      <div className="row">
+        <span className='subtitle'>
+          Hola🫡, soy
+        </span>
+        <h1 className='title'>
+          Sergio<br />Gachúz
+        </h1>
+        <ReactTyped strings={ textToType } typeSpeed={ 40 } backSpeed={ 30 } /> 
+        <div className="container-download-cv" ref={elementRef}>
+          <a className='btn-download' target='_blank' href='' download tabIndex="0">
+            Descargar CV 
+            <i className="fa-regular fa-circle-down"></i>
+          </a>
+        </div>
       </div>
     </section>
   )

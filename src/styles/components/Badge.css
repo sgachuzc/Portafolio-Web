@@ -6,6 +6,11 @@
   border: 1px solid var(--color-blue);
   border-radius: 10px;
   margin: 5px;
+  background: var(--color-white);
+  padding: 0;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: normal;
 
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -17,12 +22,12 @@
   display: flex;
 }
 .badge img{
-  width: 20px;
+  width: 15px;
 }
 .badge-text{
   padding: 5px;
   background-color: var(--color-blue);
-  color: var(--color-cold);
+  color: var(--color-white);
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }

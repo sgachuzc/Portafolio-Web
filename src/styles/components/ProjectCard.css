@@ -1,0 +1,17 @@
+.card{
+  height: 100%;
+  border: 1px solid var(--color-navy);
+  margin: auto 1rem;
+}
+.card-header{
+  background-color: var(--color-navy);
+  color: var(--color-cold);
+  font-size: 20px;
+}
+.card-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: var(--color-grey);
+}

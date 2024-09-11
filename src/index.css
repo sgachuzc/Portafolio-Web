@@ -5,23 +5,51 @@
   --color-blue: #1089FF;
   --color-grey: #E5E5E5;
   --color-cold: #EEEEEE;
-
-  background-color: var(--color-grey);
-  color: var(--color-navy);
-  font-family: "Space Mono", monospace;
-  user-select: none;
+  --color-white: #ffffff;
 }
 *{
+  font-family: "Space Mono", monospace;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+body{
+  background-color: var(--color-cold);
+  color: var(--color-navy);
+  user-select: none;
+}
 .other-section{
-  width: 60%;
   margin: 5rem auto 1rem;
 }
 .section-content p{
   text-align: justify;
+}
+.splide{
+  padding: 0 3em 3em !important;
+}
+.splide__arrow svg{
+  fill: var(--color-navy);
+}
+.splide__arrow:hover svg{
+  fill: var(--color-blue) !important;
+}
+.splide__pagination__page.is-active{
+  background-color: var(--color-blue);
+}
+.splide__pagination__page:hover{
+  background-color: var(--color-blue);
+}
+@media only screen and (max-width: 767px) {
+  .other-section{
+    width: 90%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .other-section{
+    width: 60%;
+  }
 }
 @keyframes hvr-buzz-out {
   10% {
