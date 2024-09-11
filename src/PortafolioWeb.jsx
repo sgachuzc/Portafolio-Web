@@ -1,7 +1,8 @@
 import { HeadingProvider } from "./context/HeadingProvider"
 import { 
   Footer, 
-  Navbar 
+  Navbar, 
+  ScrollButton
 } from "./components"
 import { 
   AboutSection,
@@ -24,6 +25,7 @@ export const PortafolioWeb = () => {
           <ProjectsSection/>
         </main>
         <Footer/>
+        <ScrollButton/>
       </HeadingProvider>
     </>
   )
