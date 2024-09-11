@@ -1,6 +1,7 @@
 # Portafolio Web de Sergio Gachúz
 
 Introducción
+
 Bienvenido a mi portafolio web, donde muestro mis habilidades y experiencias en el desarrollo web. Aquí encontrarás una selección de mis proyectos más destacados, así como información sobre mis habilidades, herramientas que utilizo y los lugares donde he laborado.
 
 Habilidades
@@ -18,4 +19,5 @@ Proyectos
 
 
 Contacto
+
 Si deseas saber más sobre mi trabajo o colaborar en un proyecto, no dudes en contactarme en [sergioegch@hotmail.com] o [LinkedIn](https://www.linkedin.com/in/sgachuzc/)
