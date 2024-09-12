@@ -19,8 +19,11 @@ nav{
   align-items: center;
   grid-template-columns: 50% 50%;
 }
-.nav-brand{
-  text-align: end;
+.nav-items-left div{
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  align-items: center;
 }
 .nav-brand-text{
   margin-left: 1rem;

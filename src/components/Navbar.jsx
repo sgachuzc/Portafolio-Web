@@ -27,9 +27,11 @@ export const Navbar = () => {
     <header>
       <nav>
         <div className="nav-items-left">
-          <a className='nav-brand' href='/'>
-            <img src="/images/icon.png" alt="Logo" width="50"/>
-          </a>
+          <div>
+            <a className='nav-brand' href='/'>
+              <img src="/images/Logo.png" alt="Logo" width="50"/>
+            </a>
+          </div>
           { !title && <TextBrand/> }
         </div>
         <div className="nav-items-right">
