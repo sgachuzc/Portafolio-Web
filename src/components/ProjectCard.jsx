@@ -5,8 +5,8 @@ import '../styles/components/ProjectCard.css'
 const LinksCard = ({urlGit, urlSite}) => {
   return (
     <>
-      { (urlGit) ? <a href={urlGit}>Ir a Git</a> : '' }
-      { (urlSite) ? <a href={urlGit}>Ir a Site</a> : ''}
+      { (urlGit) ? <a className="card-link" href={urlGit}><i className="fa-brands fa-github" /></a> : '' }
+      { (urlSite) ? <a className="card-link" href={urlSite}><i className="fa-solid fa-link"></i></a> : ''}
     </>
   )
 }
