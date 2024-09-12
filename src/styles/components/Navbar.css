@@ -48,7 +48,8 @@ nav{
  -ms-transition: 0.3s;
  -o-transition: 0.3s;
 }
-.nav-link:hover i{
+.nav-link:hover i,
+.nav-link:focus-visible i{
   color: var(--color-blue);
   transform: scale(1.5);
   -webkit-transform: scale(1.5);
@@ -56,7 +57,9 @@ nav{
   -ms-transform: scale(1.5);
   -o-transform: scale(1.5);
 }
-
+.nav-link:focus-visible{
+  box-shadow: none;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 767px) {
   nav{

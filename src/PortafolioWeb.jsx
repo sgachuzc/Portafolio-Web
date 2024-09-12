@@ -6,6 +6,7 @@ import {
 } from "./components"
 import { 
   AboutSection,
+  ContactSection,
   HeroSection, 
   ProjectsSection, 
   TechSection, 
@@ -23,6 +24,7 @@ export const PortafolioWeb = () => {
           <WorkSection />
           <TechSection/>
           <ProjectsSection/>
+          <ContactSection/>
         </main>
         <Footer/>
         <ScrollButton/>

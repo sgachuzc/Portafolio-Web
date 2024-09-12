@@ -39,6 +39,19 @@ body{
 .splide__pagination__page:hover{
   background-color: var(--color-blue);
 }
+.paragraph-link{
+  color: var(--color-blue);
+  text-decoration: underline;
+}
+.splide__arrow:focus-visible,
+.splide__arrow:focus-within {
+  outline: 3px solid var(--color-blue) !important;
+  outline-offset: 3px;
+}
+.splide__pagination__page:focus-visible,
+.splide__pagination__page:focus-within{
+  outline: 3px solid var(--color-blue) !important;
+}
 @media only screen and (max-width: 767px) {
   .other-section{
     width: 90%;

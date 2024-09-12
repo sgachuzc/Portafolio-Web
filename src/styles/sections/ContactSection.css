@@ -1,0 +1,18 @@
+.last-section{
+  margin-bottom: 5rem !important;
+}
+.contact-title{
+  text-align: center;
+}
+.contact-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-icons .list-items{
+  gap: 4rem;
+}
+.contact-icons .nav-link{
+  color: var(--color-navy);
+  font-size: 40px;
+}

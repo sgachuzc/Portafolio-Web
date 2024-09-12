@@ -37,7 +37,11 @@ export const TimeLine = () => {
               { job.position }
             </h3>
             <hr />
-            <h5 className="vertical-timeline-element-subtitle">{ job.company }</h5>
+            <h5 className="vertical-timeline-element-subtitle">
+              <a href={job.companyLink} title="Abre en otra pestaña" target='_blank' className="paragraph-link">
+                { job.company }
+              </a>
+            </h5>
             <p style={{margin: '1em 0', textAlign: 'justify'}}>{ job.activities }</p>
           </VerticalTimelineElement>
         ))

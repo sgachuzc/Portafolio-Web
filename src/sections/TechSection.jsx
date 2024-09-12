@@ -20,7 +20,7 @@ export const TechSection = () => {
           </p>
           <br />
           <p className="text-with-badge">
-            En este sentido, actualmente estoy ampliando mis conocimientos en <Badge technology='React'/> a través de un curso especializado.
+            En este sentido, actualmente estoy ampliando mis conocimientos en <Badge technology='React'/> a través de un curso especializado en <a className="paragraph-link" href="https://www.udemy.com/course/react-cero-experto/" target="_blank" title="Abre en otra pestaña">Udemy</a>.
           </p>
           <div className="section-content-badges">
             <h3>Back-end</h3>
