@@ -43,8 +43,7 @@ body{
   color: var(--color-blue);
   text-decoration: underline;
 }
-.splide__arrow:focus-visible,
-.splide__arrow:focus-within {
+.splide__arrow:focus-visible {
   outline: 3px solid var(--color-blue) !important;
   outline-offset: 3px;
 }
