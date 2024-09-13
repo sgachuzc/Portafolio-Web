@@ -5,7 +5,8 @@ import {
 import { 
   backendTech, 
   controlVersionTech, 
-  frontendTech 
+  frontendTech, 
+  metodologies
 } from "../data"
 import '../styles/sections/TechSection.css'
 
@@ -51,6 +52,17 @@ export const TechSection = () => {
               {
                 controlVersionTech.map( version => (
                   <Badge key={version.name} technology={version.name} />
+                ))
+              }
+            </div>
+          </div>
+          <div className="section-content-badges">
+            <h3>Metodologías</h3>
+            <hr />
+            <div style={{display: 'flex', flexWrap: 'wrap'}}>
+              {
+                metodologies.map( metodology => (
+                  <Badge key={metodology.name} technology={metodology.name} />
                 ))
               }
             </div>

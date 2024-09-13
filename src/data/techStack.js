@@ -45,3 +45,9 @@ export const controlVersionTech = [
     name: 'Gitlab'
   },
 ]
+
+export const metodologies = [
+  {
+    name: 'Scrum'
+  },
+]
