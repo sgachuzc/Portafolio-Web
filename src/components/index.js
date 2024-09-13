@@ -1,5 +1,6 @@
 export * from './Badge'
 export * from './Footer'
+export * from './ImageGrid'
 export * from './Navbar'
 export * from './ProjectCard'
 export * from './ScrollButton'
