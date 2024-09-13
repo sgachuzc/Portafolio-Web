@@ -52,7 +52,7 @@ export const HeroSection = () => {
         </h1>
         <ReactTyped strings={ textToType } typeSpeed={ 40 } backSpeed={ 30 } /> 
         <div className="container-download-cv" ref={elementRef}>
-          <a className='btn-download' target='_blank' href='' download tabIndex="0">
+          <a className='btn-download' target='_blank' title='Abre en otra pestaña' href='/docs/Curriculum.pdf' tabIndex="0">
             Descargar CV 
             <i className="fa-regular fa-circle-down"></i>
           </a>
