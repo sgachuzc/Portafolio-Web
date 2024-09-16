@@ -28,7 +28,7 @@ export const ScrollButton = () => {
 
   return (
     <button className="scroll-button animate__animated animate__fadeInRight" style={{ display: visible ? 'inline' : 'none' }} onClick={ onScrollTop }>
-      <img src="/images/scroll.svg" alt="" />
+      <img src="./images/scroll.svg" alt="" />
     </button>
   )
 }

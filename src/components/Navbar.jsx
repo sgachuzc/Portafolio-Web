@@ -29,7 +29,7 @@ export const Navbar = () => {
         <div className="nav-items-left">
           <div>
             <a className='nav-brand' href='/'>
-              <img src="/images/Logo.png" alt="Logo" width="50"/>
+              <img src="./images/Logo.png" alt="Logo" width="50"/>
             </a>
           </div>
           { !title && <TextBrand/> }

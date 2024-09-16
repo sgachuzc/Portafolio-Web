@@ -6,7 +6,7 @@ export const Badge = ({technology}) => {
   return (
     <div className="badge">
       <div className="badge-img">
-        <img src={`/tech/${techLowerCase}.svg`} alt={technology} />
+        <img src={`./tech/${techLowerCase}.svg`} alt={technology} />
       </div>
       <div className="badge-text">
         <span>{technology}</span>

@@ -7,7 +7,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const WorkIcon = () => {
   return (
-    <img src="/images/work.svg" alt="" style={{ width: '30px', margin: '4px 5px'}} />
+    <img src="./images/work.svg" alt="" style={{ width: '30px', margin: '4px 5px'}} />
   )
 }
 
