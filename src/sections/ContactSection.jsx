@@ -17,7 +17,7 @@ export const ContactSection = () => {
   return (
     <section className="container other-section last-section">
       <div className="row">
-        <h3 className="contact-title">¡No te olvides de contactarme!</h3>
+        <h3 className="contact-title">¡No olvides contactarme!</h3>
         <div className="contact-icons">
           <ul className="list-items">
             <li className="nav-item">

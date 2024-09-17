@@ -55,6 +55,15 @@ body{
   .other-section{
     width: 90%;
   }
+  .splide{
+    padding: 0 0 3em !important;
+  }
+  .splide__arrow--prev{
+    left: -25px;
+  }
+  .splide__arrow--next{
+    right: -25px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
