@@ -18,7 +18,7 @@ export const projects = [
       }
     ],
     urlGit: 'https://github.com/sgachuzc/Portafolio-Web',
-    urlSite: '/',
+    urlSite: './',
   },
   {
     id: 2,

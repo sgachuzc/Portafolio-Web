@@ -28,7 +28,7 @@ export const Navbar = () => {
       <nav>
         <div className="nav-items-left">
           <div>
-            <a className='nav-brand' href='/'>
+            <a className='nav-brand' href='./'>
               <img src="./images/Logo.png" alt="Logo" width="50"/>
             </a>
           </div>
